@@ -17,8 +17,8 @@ a {
 }
 
 header {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,12 +38,13 @@ nav li {
 nav a {
   font-weight: 600;
   padding: 1em;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #333;
 }
 
 nav a:hover {
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
 }
 
 .header-content {
@@ -58,12 +59,14 @@ nav a:hover {
 h1 {
   font-size: 3em;
   margin: 0;
+  color: #333;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: normal;
   margin: 0;
+  color: #666;
 }
 
 /* Section styles */
@@ -75,6 +78,7 @@ section {
 section h2 {
   font-size: 2em;
   margin-bottom: 2em;
+  color: #333;
 }
 
 section ul {
@@ -88,11 +92,12 @@ section li {
   padding: 1em;
   background-color: #f5f5f5;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section p {
   margin: 0;
+  color: #666;
 }
 
 /* Project item styles */
@@ -105,10 +110,12 @@ section p {
 .project-item h3 {
   font-size: 1.5em;
   margin-bottom: 0.5em;
+  color: #333;
 }
 
 .project-item p {
   margin-top: 0.5em;
+  color: #666;
 }
 
 /* Experience item styles */
@@ -119,11 +126,13 @@ section p {
 
 .experience-item h3 {
   margin-bottom: 0.5em;
+  color: #333;
 }
 
 .experience-item p {
   font-size: 0.8em;
   margin: 0;
+  color: #666;
 }
 
 /* Contact section styles */
@@ -135,5 +144,5 @@ section p {
 .contact-section li {
   font-size: 1.2em;
   margin-bottom: 0.5em;
+  color: #333;
 }
-
